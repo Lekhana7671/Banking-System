@@ -2,6 +2,8 @@
 
 **Name:** Yarnakula Lekhana
 
+**Institute:** Codegnan
+
 **ID:** CGO0225
 
 **Batch:** JFS-ONR-004
