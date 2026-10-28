@@ -147,4 +147,8 @@ This project was developed as a database mini-project to practice SQL programmin
 
 ---
 
+## 📌 Output
+
+<img width="1917" height="1077" alt="image" src="https://github.com/user-attachments/assets/77f6549f-8d62-4c38-924d-8b0950255eb7" />
+
 **#SQL #MySQL #BankingManagementSystem #DBMS #DatabaseProject #SQLQueries**
