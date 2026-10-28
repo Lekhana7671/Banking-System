@@ -118,14 +118,14 @@ select * from loans;
 -- employees table insertion
 insert into employees values(1,1,'parvathi','manager',60000.00);
 insert into employees values(2,2,'rukhmini','cashier',35000.00);
-insert into employees values(3,3,'parvathi','clerk',30000.00);
-insert into employees values(4,4,'parvathi','accountant',42000.00);
-insert into employees values(5,5,'parvathi','assistant manager',45000.00);
-insert into employees values(6,6,'parvathi','loan officer',40000.00);
-insert into employees values(7,7,'parvathi','manager',62000.00);
-insert into employees values(8,8,'parvathi','assistant manager',55000.00);
-insert into employees values(9,9,'parvathi','cashier',50000.00);
-insert into employees values(10,10,'parvathi','manager',65000.00);
+insert into employees values(3,3,'yamini','clerk',30000.00);
+insert into employees values(4,4,'revathi','accountant',42000.00);
+insert into employees values(5,5,'hema','assistant manager',45000.00);
+insert into employees values(6,6,'rani','loan officer',40000.00);
+insert into employees values(7,7,'lakshmi','manager',62000.00);
+insert into employees values(8,8,'haima','assistant manager',55000.00);
+insert into employees values(9,9,'pavani','cashier',50000.00);
+insert into employees values(10,10,'prasanna','manager',65000.00);
 select * from employees;
 
 -- 1. Display the name, phone number, and email of all customers. 
@@ -153,17 +153,16 @@ select * from customers where dob > '1998-01-01';
 select * from accounts order by balance desc;
 
 -- 9. Find the total number of customers in the bank. 
-select count(customer_id) from customers as total_customers;
+select count(customer_id) as total_customers from customers;
 
 -- 10. Find the total balance of all accounts.
-select sum(balance) from accounts as total_balance; 
+select sum(balance) as total_balance from accounts; 
 
 -- 11. Find the average account balance.
-select avg(balance) from accounts as average_balance;
+select avg(balance) as average_balance from accounts;
 
 -- 12. Find the highest and lowest account balance.
-select max(balance) from accounts as highest_balance;
-select min(balance) from accounts as least_balance; 
+select max(balance) as highest_balance,min(balance) as least_balance from accounts; 
 
 -- 13. Display the number of accounts for each account_type. 
 select account_type,count(account_type) as number_of_accounts 
