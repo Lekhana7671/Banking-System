@@ -6,6 +6,8 @@
 
 **Batch:** JFS-ONR-004
 
+**Domain:** Database Management System using MYSql
+
 **Mentor:** Jaya sri seelamneni
 
 # 📝 Banking Management System
